@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temple Album</title>
+    <meta name="description" content="A responsive gallery of beautiful LDS temples">
+    <meta name="author" content="Your Name">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Raleway:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/temples.css">
+    <link rel="stylesheet" href="styles/temples-large.css" media="(min-width: 768px)">
+    <script src="scripts/temples.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Temple Album</h1>
+        <button id="menu-button" aria-label="Toggle navigation menu">☰</button>
+        <nav id="primary-nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Old</a></li>
+                <li><a href="#">New</a></li>
+                <li><a href="#">Large</a></li>
+                <li><a href="#">Small</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Temple Gallery</h2>
+        <div class="gallery">
+            <figure>
+                <img src="images/salt-lake-temple.jpg" alt="Salt Lake Temple" loading="lazy">
+                <figcaption>Salt Lake Temple</figcaption>
+            </figure>
+            <figure>
+                <img src="images/laie-temple.jpg" alt="Laie Hawaii Temple" loading="lazy">
+                <figcaption>Laie Hawaii Temple</figcaption>
+            </figure>
+            <figure>
+                <img src="images/manti-temple.jpg" alt="Manti Temple" loading="lazy">
+                <figcaption>Manti Temple</figcaption>
+            </figure>
+            <figure>
+                <img src="images/st-george-temple.jpg" alt="St. George Temple" loading="lazy">
+                <figcaption>St. George Temple</figcaption>
+            </figure>
+            <figure>
+                <img src="images/logan-temple.jpg" alt="Logan Temple" loading="lazy">
+                <figcaption>Logan Temple</figcaption>
+            </figure>
+            <figure>
+                <img src="images/san-diego-temple.jpg" alt="San Diego Temple" loading="lazy">
+                <figcaption>San Diego Temple</figcaption>
+            </figure>
+            <figure>
+                <img src="images/washington-dc-temple.jpg" alt="Washington D.C. Temple" loading="lazy">
+                <figcaption>Washington D.C. Temple</figcaption>
+            </figure>
+            <figure>
+                <img src="images/rome-temple.jpg" alt="Rome Italy Temple" loading="lazy">
+                <figcaption>Rome Italy Temple</figcaption>
+            </figure>
+            <figure>
+                <img src="images/kyiv-temple.jpg" alt="Kyiv Ukraine Temple" loading="lazy">
+                <figcaption>Kyiv Ukraine Temple</figcaption>
+            </figure>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="currentyear"></span> 🌊 Miguel Maripil 🌊 Mar del Plata, Argentina</p>
+        <p id="lastModified">Last Modified: </p>
+    </footer>
+</body>
+</html>
