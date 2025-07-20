@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Argentina</title>
+    <link rel="stylesheet" href="styles/place.css">
+    <script src="scripts/place.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Argentina</h1>
+    </header>
+
+    <div class="hero">
+        <picture>
+            <source media="(min-width: 768px)" srcset="images/hero-large.webp">
+            <source srcset="images/hero-small.webp">
+            <img src="images/hero-large.webp" alt="Argentina landscape">
+        </picture>
+        <div class="content-container">
+            <div class="content-boxes">
+                <div class="data-box box">
+                    <h2>Data</h2>
+                    <p><strong>Area:</strong> 2,780,085 sq km</p>
+                    <p><strong>Population:</strong> 46,234,830</p>
+                    <p><strong>Capital:</strong> Buenos Aires</p>
+                    <p><strong>Languages:</strong> Spanish</p>
+                    <p><strong>Currency:</strong> Argentine Peso</p>
+                    <p><strong>Time Zone:</strong> GMT-3</p>
+                    <p><strong>Calling Code:</strong> +54</p>
+                    <p><strong>Internet TLD:</strong> .ar</p>
+                </div>
+
+                <div class="weather-box box">
+                    <h2>Weather ⛅</h2>
+                    <p><strong>Temperature:</strong> <span id="temp">10</span> °C</p>
+                    <p><strong>Conditions:</strong> Cloudy</p>
+                    <p><strong>Wind:</strong> <span id="wind-speed">5</span> km/h</p>
+                    <p><strong>Wind Chill:</strong> <span id="wind-chill">N/A</span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy;<span id="year"></span> 🌊 Miguel Maripil 🌊 Argentina</p>
+        <p>Last Modification: <span id="last-modified"></span></p>
+    </footer>
+</body>
+</html>
