@@ -1,0 +1,122 @@
+:root {
+    --primary-color: #3a5a78;
+    --secondary-color: #588b8b;
+    --accent-color: #c8553d;
+    --text-color: #333;
+    --background-color: #f9f7f3;
+    --nav-bg-color: #2d3e50;
+    --nav-text-color: #fff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    color: var(--text-color);
+    background-color: var(--background-color);
+    line-height: 1.6;
+}
+
+h1, h2, h3 {
+    font-family: 'Playfair Display', serif;
+}
+
+header {
+    background-color: var(--nav-bg-color);
+    color: var(--nav-text-color);
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#menu-button {
+    background: none;
+    border: none;
+    color: var(--nav-text-color);
+    font-size: 1.5rem;
+    cursor: pointer;
+    display: block;
+}
+
+nav ul {
+    list-style-type: none;
+    display: none;
+    flex-direction: column;
+    width: 100%;
+}
+
+nav ul.show {
+    display: flex;
+}
+
+nav a {
+    color: var(--nav-text-color);
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    display: block;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: var(--secondary-color);
+}
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+h2 {
+    text-align: center;
+    margin: 1rem 0;
+    color: var(--primary-color);
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+
+figure {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+}
+
+figure:hover {
+    transform: translateY(-5px);
+}
+
+img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+figcaption {
+    padding: 0.5rem;
+    text-align: center;
+    background-color: var(--primary-color);
+    color: white;
+}
+
+footer {
+    background-color: var(--nav-bg-color);
+    color: var(--nav-text-color);
+    text-align: center;
+    padding: 1rem;
+    margin-top: 1rem;
+}
+
+footer p {
+    margin: 0.5rem 0;
+}
