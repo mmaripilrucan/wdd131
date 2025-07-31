@@ -104,7 +104,7 @@ const menuButton = document.getElementById('menu-button');
 const primaryNav = document.querySelector('#primary-nav ul');
 const navLinks = document.querySelectorAll('#primary-nav a');
 
-// Current Year and Last Modified
+
 document.getElementById('currentyear').textContent = new Date().getFullYear();
 document.getElementById('lastModified').textContent += document.lastModified;
 
