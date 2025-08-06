@@ -1,61 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="WDD 131 - Dynamic Web Fundamentals course page for Miguel Maripil. Learn web development fundamentals including HTML, CSS, and JavaScript.">
-    <meta name="author" content="Miguel Maripil">
-    <title>WDD 131 – Dynamic Web Fundamentals – Miguel Maripil</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Lato:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles/base.css">
-    <script src="scripts/getdates.js" defer></script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Discover Argentina | Home</title>
+  
+  <link rel="stylesheet" href="styles/style.css" />
 </head>
 <body>
-    <header>
-        <div class="header-content">
-            <h1 id="course-title">WDD 131 - Dynamic Web Fundamentals - Miguel Maripil</h1>
-            <nav>
-                <a href="https://www.linkedin.com/in/miguel-angel-m-19651333a" target="_blank">LinkedIn</a>
-                <a href="https://byupw.instructure.com/" target="_blank">Canvas</a>
-                <a href="https://www.churchofjesuschrist.org/study/liahona/2018/02/youth/1-nephi-3-7?lang=eng" target="_blank">Scripture</a>
-                <a href="#">Final Project</a>
-            </nav>
-        </div>
-    </header>
-    <main>
-        <div class="main-content">
-            <section class="card about-me">
-                <h2>About Me</h2>
-                <div class="card-content">
-                    <div class="text-content">
-                        <p>My name is Miguel Maripil. I am from Chile but i live with my wife in Argentina. I do financial consulting for companies in Chile and Argentina.</p>
-                        <h3>Mar del Plata, Argentina</h3>
-                        <p>Mar del Plata is a coastal city in Argentina known for its beautiful beaches, vibrant culture, and as a major tourist destination. It's often called "La Feliz" (The Happy City) by locals.</p>
-                        <img src="images/argentina.jpg" alt="Argentina Flag" class="argentina-img">
-                    </div>
-                    <img src="images/profile.jpg" alt="Miguel Maripil" class="profile-img">
-                </div>
-            </section>
+  
+  <nav class="navbar">
+    <div class="nav-container">
+      
+      <a href="index.html" class="logo">Discover Argentina</a>
+      
+      <ul class="nav-menu">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="destinations.html">Destinations</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
 
-            <section class="card resources">
-                <h2>Web Dev Resources</h2>
-                <div class="card-content">
-                    <ul>
-                        <li><a href="https://dev.to/" target="_blank">Dev.to Community</a></li>
-                        <li><a href="https://www.smashingmagazine.com/" target="_blank">Smashing Magazine</a></li>
-                        <li><a href="https://css-tricks.com/" target="_blank">CSS Tricks</a></li>
-                        <li><a href="https://www.w3schools.com/" target="_blank">W3 Schools</a></li>
-                        <li><a href="https://www.udemy.com/" target="_blank">Udemy</a></li>
-                    </ul>
-                </div>
-            </section>
-        </div>
-    </main>
-    <footer>
-        <p>&copy;<span id="currentyear"></span> 🌊 Miguel Maripil 🌊 Mar del Plata, Argentina</p>
-        <p id="lastModified"></p>
-    </footer>
+  
+  <header class="hero">
+    <div class="hero-content">
+      <h1>Explore the Wonders of Argentina</h1>
+      <p>From the thundering Iguazú Falls to the icy glaciers of Patagonia, discover breathtaking landscapes, vibrant culture, and unforgettable adventures.</p>
+      <a href="destinations.html" class="btn">See All Destinations</a>
+    </div>
+  </header>
+
+  
+  <footer>
+    <p>&copy; 2025 Discover Argentina. <a href="references.html">References</a></p>
+  </footer>
+
+  
+  <script src="scripts/main.js" defer></script>
 </body>
 </html>
